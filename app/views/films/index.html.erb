@@ -1,4 +1,4 @@
-<h1>Movies</h1> 
+<h1>Movies <%= link_to "(Add Film)", new_film_path(@film) %></h1> 
 
     <% @films.each do |film|%>
      <div>
