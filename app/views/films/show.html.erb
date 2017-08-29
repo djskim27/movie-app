@@ -1,0 +1,8 @@
+<h1><%= @film.title%> <%= link_to "(Edit Film)", edit_film_path(@film) %></h1>
+<h2>Genre:<%= @film.genre%></h2>
+<h2>Year:<%= @film.year%></h2>
+<h2>Synopsis:</h2>
+<p>"<%= @film.synopsis%>"</p>
+<div>
+    <%= image_tag @film.picture%>
+</div>
