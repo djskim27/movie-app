@@ -6,3 +6,5 @@
 <div>
     <%= image_tag @film.picture%>
 </div>
+<%= button_to 'add to favorites', favorites_path(:film_id => @film.id), method: :post  %>
+
